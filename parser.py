@@ -17,4 +17,4 @@ for data in soup.select(".author"):
 x = {}
 for index, i in enumerate(lst1):
     x[i] = lst2[index]
-print(lst1, lst2)
+print(x)
