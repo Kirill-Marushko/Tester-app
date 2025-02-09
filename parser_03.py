@@ -8,14 +8,15 @@ lst1 = []
 for data in soup.select(".price-ticket"):
     y = data.text
     lst1.append(y)
+    print(lst1)
 
-for i in lst1:
-    print(i[3:9])
-
-price1 = []
-int_price = []
-for price in price1:
-    int_price.append(int(price))
-x = sum(int_price) // len(int_price)
-price1.append(x)
-print(price1)
+# for i in lst1:
+#     print(i[3:9])
+#
+# price1 = []
+# int_price = []
+# for price in price1:
+#     int_price.append(int(price))
+# x = sum(int_price) // len(int_price)
+# price1.append(x)
+# print(price1)
